@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*
+   Web With HTML 
+   Web Project
+   
+   Visual Style Sheet for General Overview 
+   Author: Alex Rodriguez
+   Date:   November 6, 2018 
+   
+   Filename: ax_styles1.css
+
+*/
+
+
+/* HTML Styles */
+
+html {
+    background-image: url(ax_back1.png);
+    background-size: contain;
+}
+
+
+/* Article Styles */
+
+article header h1 {
+    text-shadow: rgb(8, 8, 8) 6px 2px 5px,
+                 rgb(21, 20, 20) 5px 5px 25px}
+
+article {
+    color: rgb(228, 228, 219);
+    text-shadow: black 2px 2px 1px,
+                 black 9px 9px 25px }
+				 
+
+/* Page Body Styles */
+
+body {
+    border-left: 3px solid rgb(58, 2, 2);
+    border-right: 3px solid rgb(58, 2, 2);
+    box-shadow: rgb(60, 1, 1) 15px 0px 25px,
+                rgb(60, 1, 1) -15px -0px 25px;
+}
+
+
+/* Aside Styles */
+
+aside {
+    border: 4px double rgb(0, 0, 0);
+    border-radius: 30px;
+    box-shadow: rgb(22, 25, 22) 0px 0px 20px 10px;
+    color: rgb(228, 228, 219);
+    text-shadow: black 2px 2px 1px,
+                 black 9px 9px 25px 
+}
+
+
+/* Footer Styles */
+
+footer {
+    background: linear-gradient(1deg, black 10%, rgb(142, 0, 0));
+}
+
+footer {
+    color: rgb(228, 228, 219);
+    text-shadow: black 2px 2px 1px,
+                 black 9px 9px 25px 
+}
+
+
+/* Opacity Styles */
+body > article > header > figure {
+    opacity: 0.70;
+}
+
+
